@@ -1,3 +1,25 @@
 body {
   font-family: sans-serif;
 }
+.input-area {
+  background-color: aquamarine;
+}
+.undo-area {
+  background-color: pink;
+  min-height: 200px;
+}
+
+.done-area {
+  background-color: blueviolet;
+  min-height: 200px;
+}
+
+.list-row {
+  display: flex;
+}
+
+/* マウスオーバー */
+button:hover {
+  background-color: burlywood;
+  cursor: pointer;
+}
