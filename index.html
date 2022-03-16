@@ -7,12 +7,12 @@
 
   <body>
     <div class="input-area">
-      <input type="text" placeholder="TODOをいれる" />
-      <button>追加</button>
+      <input id="add-text" type="text" placeholder="TODOをいれる" />
+      <button id="add-button">追加</button>
     </div>
     <div class="undo-area">
       <p>未完了のtodo</p>
-      <ul>
+      <ul id="undo-list">
         <div class="list-row">
           <li>Todo</li>
           <button>完了</button>
@@ -22,7 +22,7 @@
     </div>
     <div class="done-area">
       <p>完了のtodo</p>
-      <ul>
+      <ul id="done-list">
         <div class="list-row">
           <li>Todoおわった</li>
           <button>もどす</button>
